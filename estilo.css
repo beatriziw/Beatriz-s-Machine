@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    font-family:monospace;
+    color:aliceblue;
+    background-image: url("imagens/fundo.jpg");
+    background-size: cover;
+}
+.header{
+    background-color: #4a4a4a;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align:center;
+}
+.titulo{
+    color:black;
+    font-size:60px;
+}
+.calculo{
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 80px;
+}
+.box{
+    color:black;
+    position:relative;
+    width: 400px;
+}
+.box img{
+    width:100%
+
+}
+.conteudo{
+    position:absolute;
+    top:40px;
+    left:40px;
+    width:75%;
+}
+.img img{
+    width:300px;
+}
+.resultados{
+    font-size: 20px;
+    background-color: #4a4a4a;
+    border-radius: 40px;
+    height:600px;
+    width:400px;
+   
+}
